@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+
+  font-family: "Lato", sans-serif;
+  color: white;
+
+  background-image: linear-gradient(120deg, #a921df, #1a36d8);
+
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}

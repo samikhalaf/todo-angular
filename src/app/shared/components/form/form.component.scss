@@ -1,0 +1,16 @@
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 1rem;
+
+  .form-input {
+    margin: 1rem;
+    padding: 0.5rem;
+    color: #1a36d8;
+  }
+
+  .form-button {
+  }
+}

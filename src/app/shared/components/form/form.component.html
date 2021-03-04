@@ -1,0 +1,9 @@
+<div class="form-container">
+  <input
+    class="form-input"
+    type="text"
+    placeholder="Type something!"
+    [(ngModel)]="newTodo.task"
+  />
+  <button (click)="addTodo()" class="form-button">Add</button>
+</div>

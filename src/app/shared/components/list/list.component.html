@@ -1,0 +1,21 @@
+<div class="list-container">
+  <ul>
+    <li class="todo" *ngFor="let todo of todos; let i = index">
+      <p
+        [ngClass]="{ completed: todo.completed, uncompleted: !todo.completed }"
+      >
+        {{ todo.task }}
+      </p>
+      <div>
+        <button (click)="onCompleted(todo)">
+          {{ todo.completed ? "✔️" : "✅" }}
+        </button>
+        <button (click)="onDeleteTask(i)">✖️</button>
+      </div>
+    </li>
+    <!-- 
+    <li class="todo">Hacer los deberes</li>
+    <li class="todo">Ir al super</li>
+     -->
+  </ul>
+</div>
